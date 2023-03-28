@@ -60,13 +60,22 @@ p {
     color: #fff;
     padding: .4rem 1.6rem;
     text-align: center;
+    transition: all 1s ease-in-out;
+    margin-top: 2rem;
 }
 
 .btn-light { background-color: var(--light-color);}
 .btn-dark { background-color: var(--dark-color);}
 .btn-primary { background-color: var(--primary-color);}
 
-.btn:hover {opacity: 0.8;}
+.btn:hover {
+    opacity: 0.8;
+    background-color: #f75f39;
+    box-shadow: #f75f39;
+    transition-duration: .5s;
+    border-radius: 10px;
+    transform: rotate(360deg);
+}
 
 .btn-block {
     display: block;
